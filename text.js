@@ -56,6 +56,18 @@ const max = 20
 console.log (Math.floor(Math.random()*(max-min+1))+min)
 
 
+// lecture 13 date and time //date is object in javascipt  
+
+let mydate = new Date()
+console.log(mydate. toString());
+
+let myowndate = new  Date ( 2024,0,12)
+console.log (myowndate.toDateString () );
+
+let mytimestamp = Date.now()
+console.log ()
+
+
  
 
  
